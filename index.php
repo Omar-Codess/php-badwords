@@ -7,6 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    omar
+    <form action="censor.php" method="GET">
+        <input type="text" name="paragraph">
+        <button type="submit">Invia</button>
+        <button type="reset">Reset</button>
+    </form>
 </body>
 </html>
