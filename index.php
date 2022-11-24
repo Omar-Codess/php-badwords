@@ -9,17 +9,16 @@
 <body>
     <form action="censor.php" method="GET">
         <h2>Inserisci un paragrafo</h2>
-        <div>
-            <input type="text" name="paragraph">
-            <button type="submit">Invia</button>
-            <button type="reset">Reset</button>
-        </div>
-
+        <input type="text" name="paragraph">
+        
         <h2>Inserisci una parola da censurare</h2>
+        <input type="text" name="badword">
+
+        <hr>
+        
         <div>
-            <input type="text" name="badword">
             <button type="submit">Invia</button>
-            <button type="reset">Reset</button>
+            <button type="reset">Reset</button>   
         </div>
     </form>
 </body>
